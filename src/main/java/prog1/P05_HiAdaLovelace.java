@@ -14,5 +14,7 @@ public class P05_HiAdaLovelace {
         String name = "Ada Lovelace";
         
         // Write your program here
+
+        System.out.println("Hi "+name);
     }
 }

@@ -12,9 +12,9 @@ public class P10_VariousVariables {
     public static void main(String[] args) {
     	
         // MODIFY THESE:
-        int numberOfChicken = 5000;
-        double baconWeight = 6.1;
-        String tractor = "Machine";
+        int numberOfChicken = 9000;
+        double baconWeight = 0.1;
+        String tractor = "Zetor";
 
         // DON'T MODIFY THESE:
         System.out.println("Chicken:");
