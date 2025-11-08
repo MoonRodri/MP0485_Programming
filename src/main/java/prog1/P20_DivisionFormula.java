@@ -15,7 +15,20 @@ public class P20_DivisionFormula {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
-       
+       System.out.println("Give the first number:");
+
+        int firstNumber = scanner.nextInt();
+
+        System.out.println("Give the second number:");
+
+        int secondNumber = scanner.nextInt();
+
+        int divisionNumbers = firstNumber / secondNumber;
+
+        System.out.println(firstNumber+" / "+secondNumber+" = "+divisionNumbers);
+
+
+        scanner.close();
 
     }
 }

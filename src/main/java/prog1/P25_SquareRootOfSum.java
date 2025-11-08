@@ -15,6 +15,16 @@ public class P25_SquareRootOfSum {
         Scanner scanner = new Scanner(System.in);
         
         // Write your program here
-       
+        int firstNumber = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
+
+        int sumOfNumbers = firstNumber + secondNumber;
+
+        double squareRoot = Math.sqrt(sumOfNumbers);
+        System.out.println(squareRoot);
+
+        scanner.close();
+
+
     }
 }

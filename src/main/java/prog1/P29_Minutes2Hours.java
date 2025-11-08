@@ -16,11 +16,17 @@ public class P29_Minutes2Hours {
 
         // Write your program here
         // Read number
-        
+        int inputMinutes = scanner.nextInt();
         // Calculate hours and minutes
+        int hours = inputMinutes / 60;
+
+        //double minutes = (((double)inputMinutes / 60) - hours) * 60;
+        double minutes = inputMinutes % 60;
 
         // Print hours and minutes
         
+        System.out.println(hours+" hours and "+(int)minutes+" minutes");
+
         scanner.close();
     }
 }

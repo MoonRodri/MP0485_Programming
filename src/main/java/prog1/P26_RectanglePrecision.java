@@ -18,13 +18,14 @@ public class P26_RectanglePrecision {
 
         // Write your program here
         // Read length and width
+        double lenght = scanner.nextDouble();
+        double width = scanner.nextDouble();
         
         // Calculate area       
-
-        
+        double result = lenght * width;
         // Print result rounded to two decimal places using String.format method
         // Uncomment following line
-        // System.out.println(String.format(Locale.US, "%.2f", result));
+        System.out.println(String.format(Locale.US, "%.2f", result));
         scanner.close();
     }
 }

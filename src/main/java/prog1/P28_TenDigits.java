@@ -16,11 +16,14 @@ public class P28_TenDigits {
 
         // Write your program here
         // Read number
-        
+        int number = scanner.nextInt();
         // Calculate ten digit using remainder operator
+
+        int tenDigit = (number / 10) % 10;
 
         // Print ten digits of number
         
+        System.out.println(tenDigit);
         scanner.close();
     }
 }

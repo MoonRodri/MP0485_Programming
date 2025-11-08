@@ -15,7 +15,25 @@ public class P17_SumOfThreeNumbers {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
-       
+    
+        System.out.println("Give the first number:");
 
+        int firstNumber = scanner.nextInt();
+
+        System.out.println("Give the second number:");
+
+        int secondNumber = scanner.nextInt();
+
+        System.out.println("Give the third number:");
+
+        int thirdNumber = scanner.nextInt();
+
+        int sumOfNumbers = firstNumber + secondNumber + thirdNumber;
+
+        System.out.println("The sum of the numbers is "+sumOfNumbers);
+
+
+        scanner.close();
+    
     }
 }

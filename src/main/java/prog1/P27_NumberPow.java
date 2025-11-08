@@ -16,10 +16,16 @@ public class P27_NumberPow {
 
         // Write your program here
         // Read number
-                
-        // Calculate pows using double format        
-
+        int input = scanner.nextInt();
+        // Calculate pows using double format
+        double square = Math.pow(input, 2);
+        double cube = Math.pow(input, 3);
+        double fourthPow = Math.pow(input, 4);       
+        
         // Print result of three pows as integer
+        System.out.println((int)square);
+        System.out.println((int)cube);
+        System.out.println((int)fourthPow);
                 
         scanner.close();
     }

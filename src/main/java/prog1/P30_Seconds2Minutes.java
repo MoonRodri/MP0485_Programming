@@ -12,10 +12,18 @@ import java.util.Scanner;
 public class P30_Seconds2Minutes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int seconds = scanner.nextInt();
+
+        int minutes = seconds / 60;
+
+        //double minutes = (((double)inputMinutes / 60) - hours) * 60;
+        int leftOverSeconds = seconds % 60;
+
+        // Print hours and minutes
         
-        // Write your program here
-        
+        System.out.println(minutes+" minutes and "+leftOverSeconds+" seconds");
+
         scanner.close();
     }
 }

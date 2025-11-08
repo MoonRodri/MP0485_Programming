@@ -14,10 +14,19 @@ public class P12_DoubleInput {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
+
         scanner.useLocale(Locale.US); // dot as decimal separator
 
         // Write your program here
+        System.out.println("Give me a number:");
+
+        double number;
+        number = scanner.nextDouble();
+
+        System.out.println("You gave the number: " + number);
         
 
+        scanner.close();
     }
 }
